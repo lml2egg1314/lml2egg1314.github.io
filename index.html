@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Minglin Liu — Curriculum Vitae</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#555; --accent:#1a4d7a; --line:#d8d8d8; --bg:#f0f0f0;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:"Times New Roman", Georgia, serif;
+    color:var(--ink); background:var(--bg);
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    width:210mm; min-height:297mm; margin:10mm auto; padding:16mm 18mm;
+    background:#fff; box-shadow:0 2px 10px rgba(0,0,0,.15);
+  }
+  @media print{
+    body{background:#fff;}
+    .page{margin:0; box-shadow:none; width:auto; min-height:auto;}
+    .no-print{display:none;}
+  }
+  /* Header */
+  header{text-align:center; border-bottom:3px double var(--accent); padding-bottom:12px; margin-bottom:16px;}
+  h1{font-size:26px; letter-spacing:1px; color:var(--accent);}
+  .title-line{font-size:14px; margin-top:4px; color:var(--muted);}
+  .contact{font-size:12.5px; margin-top:8px; line-height:1.6;}
+  .contact span{white-space:nowrap;}
+  .contact .sep{margin:0 8px; color:#aaa;}
+  /* Sections */
+  h2{
+    font-size:15px; text-transform:uppercase; letter-spacing:1.5px;
+    color:var(--accent); border-bottom:1px solid var(--line);
+    margin:18px 0 8px; padding-bottom:3px;
+  }
+  ul{list-style:none;}
+  .item{margin-bottom:7px; font-size:13.5px; line-height:1.5;}
+  .item .yr{display:inline-block; width:52px; color:var(--muted); font-size:12.5px; vertical-align:top;}
+  .item .body{display:inline-block; width:calc(100% - 56px); vertical-align:top;}
+  .item b{font-weight:bold;}
+  .venue{font-style:italic;}
+  .note{font-size:11.5px; color:var(--muted);}
+  .tag{font-size:11.5px; color:var(--accent);}
+  .pub{margin-bottom:7px; font-size:13px; line-height:1.5; padding-left:1.6em; text-indent:-1.6em;}
+  .pub .yr{font-weight:bold; color:var(--accent); margin-right:4px;}
+  .me{font-weight:bold; text-decoration:underline;}
+  .cols{display:flex; gap:24px;}
+  .cols > div{flex:1;}
+  footer{margin-top:22px; font-size:11px; color:var(--muted); text-align:center; border-top:1px solid var(--line); padding-top:8px;}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Minglin Liu (刘明林)</h1>
+  <div class="title-line">Associate Professor · School of Cyber Science and Engineering, Zhengzhou University</div>
+  <div class="contact">
+    <span>Email: liuminglin@zzu.edu.cn</span><span class="sep">|</span>
+    <span>Address: Zhengzhou, Henan, China</span><span class="sep">|</span>
+    <span>Code: <a href="https://github.com/lml2egg1314">github.com/lml2egg1314</a></span>
+  </div>
+</header>
+
+<h2>Research Interests</h2>
+<div class="item" style="margin-left:0">
+  Information hiding (image steganography &amp; steganalysis, digital watermarking), AI security (adversarial attack and defense, deepfake detection and media forensics).
+</div>
+
+<h2>Education</h2>
+<ul>
+  <li class="item"><span class="yr">2022</span><span class="body"><b>Ph.D. in Cyberspace Security</b>, Sun Yat-sen University, Guangzhou, China. (Advisor: Prof. Weiqi Luo)</span></li>
+  <li class="item"><span class="yr">&nbsp;</span><span class="body"><b>Postdoctoral Fellow</b>, PLA Information Engineering University, Zhengzhou, China.</span></li>
+</ul>
+
+<h2>Academic Appointments</h2>
+<ul>
+  <li class="item"><span class="yr">2022–</span><span class="body"><b>Associate Professor</b> (formerly Lecturer), School of Cyber Science and Engineering, Zhengzhou University; State Key Laboratory of Digital Engineering and Advanced Computing.</span></li>
+</ul>
+
+<h2>Publications</h2>
+<div class="note" style="margin-bottom:6px">(* Underline = self. Google Scholar citations ≈ 275, h-index 6.)</div>
+
+<h2 style="font-size:13px; margin-top:10px">Journal Papers</h2>
+<ul>
+  <li class="pub"><span class="yr">[J1]</span><span class="me">Minglin Liu</span>, Weiqi Luo, Peijia Zheng, Jiwu Huang. "A New Adversarial Embedding Method for Enhancing Image Steganography." <span class="venue">IEEE Transactions on Information Forensics and Security (TIFS)</span>, 16: 4621–4634, 2021. <span class="tag">(CCF-A)</span></li>
+  <li class="pub"><span class="yr">[J2]</span><span class="me">Minglin Liu</span>, Tingting Song, Weiqi Luo, Peijia Zheng, Jiwu Huang. "Adversarial Steganography Embedding via Stego Generation and Selection." <span class="venue">IEEE Transactions on Dependable and Secure Computing (TDSC)</span>, 20(3): 2375–2389, 2023. <span class="tag">(CCF-A)</span></li>
+  <li class="pub"><span class="yr">[J3]</span><span class="me">Minglin Liu</span>, Hangyu Fan, Kangkang Wei, Weiqi Luo, Wei Lu. "Adversarial Robust Image Steganography Against Lossy JPEG Compression." <span class="venue">Signal Processing</span>, 200: 108668, 2022.</li>
+  <li class="pub"><span class="yr">[J4]</span>Dongxia Huang, Weiqi Luo, <span class="me">Minglin Liu</span>, Wenquan Tang, Jiwu Huang. "Steganography Embedding Cost Learning With Generative Multi-Adversarial Network." <span class="venue">IEEE TIFS</span>, 19: 15–29, 2024. <span class="tag">(CCF-A)</span></li>
+  <li class="pub"><span class="yr">[J5]</span>Kangkang Wei, Weiqi Luo, <span class="me">Minglin Liu</span>, Miaoxin Ye. "Residual Guided Coordinate Attention for Selection Channel Aware Image Steganalysis." <span class="venue">Multimedia Systems</span>, 29(4): 2125–2135, 2023.</li>
+  <li class="pub"><span class="yr">[J6]</span>Xinyi Li, Yang Gao, <span class="me">Minglin Liu</span>, et al. "A New Data-Free Backdoor Removal Method via Adversarial Self-Knowledge Distillation." <span class="venue">IEEE Internet of Things Journal</span>, 12(9): 12267–12277, 2025.</li>
+  <li class="pub"><span class="yr">[J7]</span>Yang Cao, Changlong Zhou, <span class="me">Minglin Liu</span>, Weiqi Luo, Xinbo Luo. "Enhancing Knowledge Distillation via Genetic Recombination." <span class="venue">Applied Soft Computing</span>, 181: 113414, 2025.</li>
+  <li class="pub"><span class="yr">[J8]</span>Jie Ma, Yiming Du, Xinbo Luo, <span class="me">Minglin Liu</span>, Jianhua Li. "AIBW: Average Interval-Based Watermarking for Tracking Down Network Attacks." <span class="venue">IEEE Signal Processing Letters</span>, 2025.</li>
+  <li class="pub"><span class="yr">[J9]</span>Yang Cao, Yixin Hu, <span class="me">Minglin Liu</span>, Kangkang Wei, Rui Zhao, Weiqi Luo, Xinbo Luo. "A Self-Distillation Framework with Feature Pyramids and Auxiliary Classifiers for Image Steganalysis." <span class="venue">Signal, Image and Video Processing</span>, 19(18): 1453, 2025.</li>
+  <li class="pub"><span class="yr">[J10]</span>Tong Hu, Yao Lei, Yuhan Wang, Rui Ma, Xiang Yin, <span class="me">Minglin Liu</span>, Rui Zhao. "Beyond Words and Pictures: A Survey of Multimodal Fake News Detection." <span class="venue">Expert Systems</span>, 43(6): e70260, 2026.</li>
+  <li class="pub"><span class="yr">[J11]</span><span class="me">刘明林</span>, 王瑜琪, 郭苏娴, 孙俊旗, 钟智超, 罗向阳, 骆伟祺. "基于二值特征压缩与超分辨率重建的以图藏图隐写方法." <span class="venue">《网络与信息安全学报》(Chinese Journal of Network and Information Security)</span>, 12(4): 3–16, 2026.</li>
+  <li class="pub"><span class="yr">[J12]</span>魏康康, 骆伟祺, <span class="me">刘明林</span>. "基于中心差分卷积和注意力的空域彩色图像隐写分析." <span class="venue">《软件学报》(Journal of Software)</span>, 35(12): 5671–5686, 2024. <span class="tag">(CCF T1)</span></li>
+</ul>
+
+<h2 style="font-size:13px; margin-top:10px">Conference Papers</h2>
+<ul>
+  <li class="pub"><span class="yr">[C1]</span>Tingting Song, <span class="me">Minglin Liu</span>, Weiqi Luo, Peijia Zheng. "Enhancing Image Steganography via Stego Generation and Selection." <span class="venue">IEEE ICASSP 2021</span>.</li>
+  <li class="pub"><span class="yr">[C2]</span>Hao Lin, Weiqi Luo, Kangkang Wei, <span class="me">Minglin Liu</span>. "Improved Xception with Dual Attention Mechanism and Feature Fusion for Face Forgery Detection." <span class="venue">IEEE ICDIS 2022</span>.</li>
+</ul>
+
+<h2>Research Grants</h2>
+<ul>
+  <li class="item"><span class="yr">2024–</span><span class="body"><b>Principal Investigator.</b> "Adversarial Image Steganography and Steganalysis," National Natural Science Foundation of China (NSFC) Young Scientists Fund, No. 62302458, RMB 300,000.</span></li>
+  <li class="item"><span class="yr">&nbsp;</span><span class="body"><b>Co-Investigator.</b> NSFC Joint Fund (U2001202, video perception and tampering forensics); NSFC General Program (61972430, new methods for digital image steganography); Key R&amp;D Program of Guangdong Province (2019B010139003, forensics of AI-based fake audio/video); Guangdong NSF General Program (2019A1515011549).</span></li>
+  <li class="item"><span class="yr">&nbsp;</span><span class="body"><b>Patents:</b> 2 national invention patents (granted). <b>Other grants:</b> 2 industry-funded projects.</span></li>
+</ul>
+
+<h2>Academic Service</h2>
+<div class="cols">
+  <div>
+    <div class="item"><b>Committee Memberships</b>
+      <ul style="margin:4px 0 0 1em; list-style:disc; font-size:13px">
+        <li>Member, Digital Media Forensics and Security Committee, China Society of Image and Graphics (CSIG)</li>
+        <li>Member, Computer Security Committee, China Computer Federation (CCF)</li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div class="item"><b>Reviewer</b>
+      <ul style="margin:4px 0 0 1em; list-style:disc; font-size:13px">
+        <li>IEEE TIFS, IEEE TDSC, IEEE IoT-J, IEEE TCSVT, IEEE SPL, Signal Processing, etc.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2>Honors</h2>
+<ul>
+  <li class="item"><span class="yr">—</span><span class="body">Young Backbone Teacher, Zhengzhou University.</span></li>
+</ul>
+
+<footer>Minglin Liu — Curriculum Vitae · Last updated: October 2026</footer>
+</div>
+</body>
+</html>
